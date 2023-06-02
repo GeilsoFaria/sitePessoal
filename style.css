@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+:root{
+    --cor0: #0B0D0D;/*Preto*/
+    --cor1: #26382B;/*Verde Escuro fraco*/
+    --cor2: #343D2B;/*Verde Escuro forte*/
+    --cor3: #242A33;/*Azul escuro*/
+    --cor4: #2C2933;/*Quase roxo*/
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: var(--fonte-padrao);
+}
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #232323;
+}
+/* nav{
+    background-color: #232323;
+    padding: 20px 50px 20px 0px ;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.342);
+    text-align: right;
+
+}
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: normal;
+    border-radius: 5px;
+    transition-duration: .5s;
+    font-family: 'Poppins', sans-serif;
+}
+nav > a:hover {
+    background-color: var(--cor4);
+    color: orange;
+} */
+.container {
+  display: flex;
+  align-items: center; 
+  margin: 0 auto;
+  max-width: 1200px;
+  
+  
+}
+.image-wrapper {
+  flex: 1 1 400px; 
+  margin-right: 20px; 
+  padding-right: 20px;
+}
+.item--image {
+    border-radius: 50%;
+    border: 5px solid rgb(24, 23, 23);
+    max-width: 100%;
+    margin: 25px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342); 
+  }
+.content-wrapper {
+    flex: 1 1 auto; /* Permite que o conteúdo cresça */
+    padding-left: 25px;
+}
+.item {
+    padding: 20px 0px 20px 0px;
+    text-align: justify;
+    padding-right: 10px;
+}
+.content-wrapper p a img{
+    width: 40px;
+    height: 40px;
+    padding: 5px 5px;
+}
+h2{
+    text-align: center;
+    padding: 25px 0px;
+}
+.logosTec {
+    text-align: center;
+}
+
+.logosTec h2 {
+    text-align: center;
+}
+
+.logosTec img {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    padding: 20px 5px 20px 5px;
+    margin: 0 10px; /* Ajuste o espaçamento horizontal entre as imagens, se necessário */
+}
+footer{
+    text-align: center;
+    background-color:#232323;
+    color: white;
+    padding-top: 10px;
+}
+footer a
+{
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+footer a::after {
+    content: '\00A0\1F517';
+}
