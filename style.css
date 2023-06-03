@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
+@font-face {
+    font-family: 'NomeTitulo';
+    src: url(fontes/LCDM2B__.TTF);
+}
 
 :root{
     --cor0: #0B0D0D;/*Preto*/
@@ -24,6 +28,33 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #232323;
+    padding: 0px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.342);
+}
+.cabecalho-item{
+    text-decoration: none;
+    color: antiquewhite;
+    padding: 0px 5px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    transition-duration: .2s;
+}
+
+
+.cabecalho-item :hover {
+    background-color: wheat;
+    color: orange;
+} 
+.cabecalho-h2{
+    color: antiquewhite;
+    font-family: 'NomeTitulo', cursive;
+
+}
+.cabecalho-item:hover{
+    /* background-color: gray; */
+    color: orange;
+    padding: 5px;
+
 }
 /* nav{
     background-color: #232323;
@@ -54,16 +85,16 @@ nav > a:hover {
   
 }
 .image-wrapper {
-  flex: 1 1 400px; 
-  margin-right: 20px; 
-  padding-right: 20px;
+    flex: 1 1 400px; 
+    /* margin-right: 20px;  */
+    padding-right: 20px;
 }
 .item--image {
     border-radius: 50%;
-    border: 5px solid rgb(24, 23, 23);
+    /* border: 5px solid rgb(24, 23, 23); */
     max-width: 100%;
     margin: 25px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.342); 
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.342); 
   }
 .content-wrapper {
     flex: 1 1 auto; /* Permite que o conteúdo cresça */
