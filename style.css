@@ -40,25 +40,18 @@ body {
     color: antiquewhite;
     padding: 0px 5px;
     font-family: 'Poppins', sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     transition-duration: .2s;
 }
-
-
-.cabecalho-item :hover {
-    background-color: wheat;
-    color: orange;
-} 
 .cabecalho-h2{
     color: antiquewhite;
     font-family: 'NomeTitulo', cursive;
 
 }
 .cabecalho-item:hover{
-    /* background-color: gray; */
+    background-color: rgb(88, 83, 83);
     color: orange;
     padding: 5px;
-
 }
 /* nav{
     background-color: #232323;
