@@ -8,11 +8,6 @@
 }
 
 :root{
-    --cor0: #0B0D0D;/*Preto*/
-    --cor1: #26382B;/*Verde Escuro fraco*/
-    --cor2: #343D2B;/*Verde Escuro forte*/
-    --cor3: #242A33;/*Azul escuro*/
-    --cor4: #2C2933;/*Quase roxo*/
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
 }
 * {
@@ -32,7 +27,6 @@ body {
     box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.342);
     position: sticky; 
     top:0;
-    /* height: 70px; */
     
 }
 .cabecalho-item{
@@ -102,7 +96,7 @@ nav > a:hover {
     text-align: justify;
     padding-right: 10px;
 }
-.content-wrapper p a img{
+.content-wrapper nav a img{
     width: 40px;
     height: 40px;
     padding: 5px 5px;
@@ -113,6 +107,7 @@ h2{
 }
 .logosTec {
     text-align: center;
+   
 }
 
 .logosTec h2 {
@@ -125,6 +120,18 @@ h2{
     height: 60px;
     padding: 20px 5px 20px 5px;
     margin: 0 10px; /* Ajuste o espaçamento horizontal entre as imagens, se necessário */
+}
+
+.projetos{
+   
+    margin:0 auto;
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    background-color:lightslategray;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 5px;
 }
 footer{
     text-align: center;
