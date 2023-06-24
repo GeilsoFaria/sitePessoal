@@ -29,13 +29,18 @@ body {
     top:0;
     
 }
+.cabecalho-menu {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .cabecalho-item{
     text-decoration: none;
     color: antiquewhite;
     padding: 0px 5px;
     font-family: 'Poppins', sans-serif;
     border-radius: 10px;
-    transition-duration: .2s;
+   
 }
 .cabecalho-h2{
     color: antiquewhite;
@@ -46,6 +51,7 @@ body {
     background-color: rgb(88, 83, 83);
     color: orange;
     padding: 5px;
+    transition-duration: .5s;
 }
 /* nav{
     background-color: #232323;
@@ -121,17 +127,21 @@ h2{
     padding: 20px 5px 20px 5px;
     margin: 0 10px; /* Ajuste o espaçamento horizontal entre as imagens, se necessário */
 }
-
+#container-projetos {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
 .projetos{
    
-    margin:0 auto;
+    margin:5px auto;
     text-align: center;
     width: 150px;
     height: 150px;
     background-color:lightslategray;
     border-radius: 20px;
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 footer{
     text-align: center;
