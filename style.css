@@ -53,26 +53,6 @@ body {
     padding: 5px;
     transition-duration: .5s;
 }
-/* nav{
-    background-color: #232323;
-    padding: 20px 50px 20px 0px ;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.342);
-    text-align: right;
-
-}
-nav > a {
-    color: white;
-    padding: 10px;
-    text-decoration: none;
-    font-weight: normal;
-    border-radius: 5px;
-    transition-duration: .5s;
-    font-family: 'Poppins', sans-serif;
-}
-nav > a:hover {
-    background-color: var(--cor4);
-    color: orange;
-} */
 .container {
   display: flex;
   align-items: center; 
@@ -142,6 +122,28 @@ h2{
     border-radius: 20px;
     display: inline-block;
     padding: 10px;
+}
+#projCordel {
+    background-image: url('imagens/projetoCordel.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top left;
+    
+}
+#projCordel > p{
+    display: none;
+    padding-top: 25%;
+}
+#projCordel:hover{
+    background-color: #232323;
+    background-image: url('imagens/css.png');
+    background-size: 50%;
+    background-position: center center;
+
+}
+#projCordel > p{
+    display: block;
+    color: black;
 }
 footer{
     text-align: center;
